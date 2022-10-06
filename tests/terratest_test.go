@@ -102,7 +102,6 @@ func TestFull(t *testing.T) {
 	  "RingSize": 64
 	}
 }
-}
 `
 	// Validate that what is in the Intersight API matches the expected
 	// The AssertMOComply function only checks that what is expected is in the result. Extra fields in the
