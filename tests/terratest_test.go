@@ -50,7 +50,7 @@ func TestFull(t *testing.T) {
 	expectedJSONTemplate := `
 {
 	"Name":        "{{ .name }}",
-	"Description": "{{ .name }} Fibre-Channel Adapter Policy.",
+	"Description": "Recommended adapter settings for VMware.",
 
 	"ErrorDetectionTimeout": 2000,
 	"ErrorRecoverySettings": {
