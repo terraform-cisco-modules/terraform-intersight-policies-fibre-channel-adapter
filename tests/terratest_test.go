@@ -73,7 +73,7 @@ func TestFull(t *testing.T) {
 	  "Mode": "MSIx",
 	  "ObjectType": "vnic.FcInterruptSettings"
 	},
-	"IoThrottleCount": 256,
+	"IoThrottleCount": 512,
 	"LunCount": 1024,
 	"LunQueueDepth": 20,
 	"PlogiSettings": {
